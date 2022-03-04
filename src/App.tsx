@@ -5,6 +5,7 @@ import React from 'react';
 import logo from './logo.svg';
 import { QueryClient, QueryClientProvider } from "react-query";
 
+import { Posts } from './Posts';
 import React from 'react';
 import logo from './logo.svg';
 
@@ -28,6 +29,7 @@ function App() {
         </a>
       </header>
       <Button>Test</Button>
+      <Posts />
     </div>
     </QueryClientProvider>
   );
